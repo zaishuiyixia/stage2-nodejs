@@ -1,3 +1,7 @@
+### 查看.todo文件
+```
+cat ~/.todo
+```
 ### 发布到npm
 首先package.json里设置的name不能和已发布的npm包同名，否则不能发布
 
