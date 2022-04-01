@@ -14,7 +14,7 @@ cat ~/.todo
 
 main设置提供给用户使用的逻辑文件，如果用户想使用我们的逻辑功能的话，逻辑代码都在index.js文件中
 
-files设置哪些文件是有用的
+files设置哪些文件是有用的，publish的时候会上传
 ```
 // 简写所有的js文件（cli、db、index）都是有用的
 "files": [

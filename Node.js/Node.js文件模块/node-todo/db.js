@@ -4,6 +4,7 @@ const homedir = require('os').homedir()
 const home = process.env.Home || homedir
 const p = require('path')
 const fs = require('fs')
+// join()与resolve()的作用都是用来拼接路径的，主要的区别是join方法生成的相对路径，resolve方法生成的是绝对路径
 const dbPath = p.join(home, '.todo')
 
 const db = {
